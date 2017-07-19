@@ -1,0 +1,13 @@
+/* General */
+.flex {
+  display: flex;
+}
+
+.container {
+  width: 60%;
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+}
