@@ -1,4 +1,14 @@
 /* General */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+  color: rgb(41,42,42);
+}
+
 .flex {
   display: flex;
 }
@@ -10,4 +20,54 @@
 .container img {
   width: 100%;
   height: auto;
+}
+
+/* Navigation */
+nav {
+  align-items: center;
+  justify-content: space-between;
+  height: 64px;
+}
+
+nav ul {
+  margin-right: 24px;
+}
+
+nav ul li {
+  font-size: 0.9rem;
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  padding: 10px 8px;
+  border-radius: 4px;
+  color: rgb(41,42,42);
+  transition: background-color 300ms linear;
+}
+
+nav ul li a:hover {
+  color: rgb(255,255,255);
+  background-color: rgb(117,118,118);
+}
+
+#logo {
+  align-items: center;
+  margin-left: 24px;
+}
+
+#logo h1 {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  margin-left: 5px;
+}
+
+#logo span {
+  font-weight: 300;
+  color: rgb(166,167,167);
+}
+
+#logo img {
+  height: 2rem;
 }
