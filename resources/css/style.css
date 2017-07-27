@@ -4,13 +4,13 @@
 }
 
 html {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 18px;
   color: rgb(80,81,81);
 }
 
 h4 {
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   font-weight: 700;
 }
 
@@ -117,13 +117,13 @@ nav ul li a:hover {
 }
 
 #banner-copy h2 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 1.5rem;
 }
 
 #banner-copy h3 {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   margin-bottom: 1.5rem;
 }
 
@@ -208,18 +208,76 @@ nav ul li a:hover {
 }
 
 /* Course Overview */
+#courses {
+  padding: 2rem;
+}
+
 #courses h4 {
   text-align: center;
-  padding: 2rem 0;
+  padding-bottom: 2rem;
 }
 
 #course-section {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border: 1px solid red;
+}
+
+.course-row {
+  justify-content: center;
+}
+
+.course-details {
+  color: rgb(80,81,81);
+  background-color: rgb(255,255,255);
+  width: 350px;
+  margin: 16px;
 }
 
 .course-details img {
-  max-width: 400px;
+  width: 100%;
+}
+
+.course-copy {
+  padding: 16px 16px 24px 16px;
+}
+
+.courses {
+  text-transform: uppercase;
+  padding: 8px 0;
+}
+
+/* Thesis Exhibit */
+#thesis {
+  border-bottom: 1px solid rgb(215,216,216);
+}
+
+#thesis h4 {
+  text-align: center;
+  padding: 32px 0;
+}
+
+#thesis-video video {
+  width: 100%;
+}
+
+#thesis-copy h5 {
+  margin: 1.5rem 0 1rem 0;
+}
+
+
+/* Footer */
+footer {
+  justify-content: space-between;
+  margin: 1rem 1.5rem 3rem 1.5rem;
+}
+
+footer p, a {
+  font-size: 0.8rem;
+}
+
+footer a {
+  font-weight: 300;
+  color: rgb(80,81,81);
+  padding-left: 1rem;
 }

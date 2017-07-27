@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" type"text/css" href="resources/css/reset.css">
     <link rel="stylesheet" type"text/css" href="resources/css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
   </head>
   <body>
 
@@ -74,46 +74,58 @@
 <!--Course Overview-->
   <div id="courses" class="gray">
     <h4>Start learning</h4>
-    <div id="course-section" class="flex">
+    <div id="course-section">
       <div class="course-row flex">
-        <div class="course-details">
+        <a href="#" class="course-details">
           <img src="resources/media/images/course-software.jpg" alt="Software engineering">
-          <h5>Software engineering</h5>
-          <p>COURSES</p>
-          <p>Web development, Mobile Development, iOT, APIs</p>
-        </div>
-        <div class="course-details">
+          <div class="course-copy">
+            <h5>Software engineering</h5>
+            <p class="courses">Courses</p>
+            <p>Web development, Mobile Development, iOT, APIs</p>
+          </div>
+        </a>
+        <a href="#" class="course-details">
           <img src="resources/media/images/course-computer-art.jpg" alt="Computer art">
-          <h5>Computer art</h5>
-          <p>COURSES</p>
-          <p>Imaging&#x26;Design, Web Design, Motion Graphics &#x26; Visual Effects, Computer Animation</p>
-        </div>
-        <div class="course-details">
+          <div class="course-copy">
+            <h5>Computer art</h5>
+            <p class="courses">Courses</p>
+            <p>Imaging&#x26;Design, Web Design, Motion Graphics &#x26; Visual Effects, Computer Animation</p>
+          </div>
+        </a>
+        <a href="#" class="course-details">
           <img src="resources/media/images/course-design.jpg" alt="Design">
-          <h5>Design</h5>
-          <p>COURSES</p>
-          <p>User Experience, User Research, Visual Design</p>
+          <div class="course-copy">
+            <h5>Design</h5>
+            <p class="courses">Courses</p>
+            <p>User Experience, User Research, Visual Design</p>
+          </div>
         </div>
-      </div>
+      </a>
       <div class="course-row flex">
-        <div class="course-details">
+        <a href="#" class="course-details">
           <img src="resources/media/images/course-data.jpg" alt="Data">
-          <h5>Data</h5>
-          <p>COURSES</p>
-          <p>Data Science, Big Data, SQL, Data Visualization</p>
-        </div>
-        <div class="course-details">
+          <div class="course-copy">
+            <h5>Data</h5>
+            <p class="courses">Courses</p>
+            <p>Data Science, Big Data, SQL, Data Visualization</p>
+          </div>
+        </a>
+        <a href="#" class="course-details">
           <img src="resources/media/images/course-business.jpg" alt="business">
-          <h5>Business</h5>
-          <p>COURSES</p>
-          <p>Product, Development, Business Development, Startup</p>
-        </div>
-        <div class="course-details">
+          <div class="course-copy">
+            <h5>Business</h5>
+            <p class="courses">Courses</p>
+            <p>Product, Development, Business Development, Startup</p>
+          </div>
+        </a>
+        <a href="#" class="course-details">
           <img src="resources/media/images/course-marketing.jpg" alt="marketing">
-          <h5>Marketing</h5>
-          <p>COURSES</p>
-          <p>Analysis, Content Marketing, Mobile Marketing</p>
-        </div>
+          <div class="course-copy">
+            <h5>Marketing</h5>
+            <p class="courses">Courses</p>
+            <p>Analysis, Content Marketing, Mobile Marketing</p>
+          </div>
+        </a>
       </div>
     </div>
   </div>
@@ -121,36 +133,42 @@
 <!--Thesis Exhibit-->
   <div id="thesis">
     <h4>Thesis Exhibit</h4>
-    <div id="main container">
-      <div id="thesis-video">
-        <video src="resources/media/videos/thesis.mp4"></video>
-      </div>
-      <div id="thesis-copy">
-        <h5>Reimagine urban</h5>
-        <p>"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est."</p>
-      </div>
-    </div>
-    <div class="side">
-      <div class="side-item">
-        <img src="resources/media/images/thesis-fisma.jpg" alt="Fisma">
-        <div class="side-copy">
-          <h5>Fisma: Design and XX</h5>
-          <p>Designer showcase of new prototype product</p>
+    <div id="thesis-info" class="flex">
+      <div class="main container">
+        <div id="thesis-video">
+          <video src="resources/media/videos/thesis.mp4" controls autoplay>Your browser does not support the video feature</video>
+        </div>
+        <div id="thesis-copy">
+          <h5>Reimagine urban</h5>
+          <p>"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est."</p>
         </div>
       </div>
-      <div class="side-item">
-        <img src="resources/media/images/thesis-now-and-then.jpg" alt="Now and then">
-        <div class="side-copy">
-          <h5>Now and then</h5>
-          <p>Research study about New York</p>
+      <div class="side">
+        <div class="side-item flex">
+          <img src="resources/media/images/thesis-fisma.jpg" alt="Fisma">
+          <div class="side-copy">
+            <h5>Fisma: Design and XX</h5>
+            <p>Designer showcase of new prototype product</p>
+          </div>
+        </div>
+        <div class="side-item flex" id="no-border">
+          <img src="resources/media/images/thesis-now-and-then.jpg" alt="Now and then">
+          <div class="side-copy">
+            <h5>Now and then</h5>
+            <p>Research study about New York</p>
+          </div>
         </div>
       </div>
     </div>
   </div>
 
 <!--Footer-->
-<footer>
+<footer class="flex">
   <p>&#xa9; 2016 Colmar Academy. All rights reserved</p>
+  <div id="footer-menu">
+    <a href="#">Terms</a>
+    <a href="#">Privacy</a>
+  </div>
 </footer>
 
   </body>
